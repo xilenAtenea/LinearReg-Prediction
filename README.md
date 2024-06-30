@@ -57,31 +57,31 @@ python main.py
 
 ## API Endpoints
 
-Once the Flask application is running, you can access the following endpoints:
+Once the Flask application is running, the application is deployed in render, so you can access the different endpoints through the following links:
 
 ### Documentation
 
-**Link:** http://localhost:5000/
+[**Documentation**](https://linearreg-prediction.onrender.com/)
 
-**Description:** View the project documentation.
+View the project documentation.
 
 ### Dataset
 
-**Link:** http://localhost:5000/dataset
+[**/dataset**](https://linearreg-prediction.onrender.com/dataset)
 
-**Description:** Download the dataset used for the analysis.
+Download the dataset used for the analysis.
 
 ### Prediction Graph
 
-**Link:** http://localhost:5000/predictions
+[**/predictions**](https://linearreg-prediction.onrender.com/predictions)
 
-**Description:** View the scatter plot of real vs. predicted scores along with the regression line.
+View the scatter plot of real vs. predicted scores along with the regression line.
 
 ### Metrics
 
-**Link:** http://localhost:5000/metrics
+[**/metrics**](https://linearreg-prediction.onrender.com/metrics)
 
-**Description:** View the metrics of the linear regression model including mean squared error, coefficients, and intercept.
+View the metrics of the linear regression model including mean squared error, coefficients, and intercept.
 
 Please feel free to explore the API and understand how the linear regression model is built and evaluated.
 
