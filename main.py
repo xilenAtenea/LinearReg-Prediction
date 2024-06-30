@@ -3,8 +3,6 @@ import markdown
 
 import linearregression
 
-
-# Inicializar la aplicación de Flask
 app = Flask(__name__)
 
 @app.route('/')
@@ -17,7 +15,7 @@ def documentation():
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Documentación</title>
+            <title>Documentation</title>
             <style>
                 body {{
                     display: flex;
