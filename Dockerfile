@@ -7,7 +7,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main.py .
-COPY studentsperformance .
+COPY studentsperformance.csv .
 COPY README.md .
 
 EXPOSE 5000
